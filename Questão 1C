@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    //Declaração de Variáves
+  int N1, N2;
+  
+//Entrada de Dados
+  printf ("Digite o número 1: ");
+  scanf("%d", &N1);
+  printf ("Digite o número 2: ");
+  scanf("%d", &N2);
+  
+//Saída de Dados
+printf ("A soma dos dois algarismos é: %d \n", N1 + N2);
+printf ("A subtração dos dois algarismos é: %d \n", N1 - N2);
+printf ("A multiplicação dos dois algarismos é: %d \n", N1 * N2);
+printf ("A divisão dos dois algarismos é: %d \n", N1 / N2);
+printf ("O resto da divisão é: %d \n", N1 % N2);
+}
