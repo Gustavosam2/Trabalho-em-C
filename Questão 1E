@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+  //Declaração de Variaveis
+float Graus_Celsius, Graus_Fahrenheit;
+
+ //Entrada de Dados
+printf ("Informe a temperatura em Fahrenheit: ");
+scanf ("%f", &Graus_Fahrenheit);
+ 
+ //Saída de Dados
+printf ("A conversão dos graus Fahrenheit para Celsius é: %f ", Graus_Celsius = ((Graus_Fahrenheit - 32) * 5) / 9);
