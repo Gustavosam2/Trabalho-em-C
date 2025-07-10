@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+ //Declaração de Variáveis
+ double pi = 3.14159;
+ float volume, raio, altura;
+ 
+ //Entrada de Dados
+ printf ("Informe o raio do cilindro: ");
+ scanf ("%f", &raio);
+ printf ("Informe a altura do cilindro: ");
+ scanf ("%f", &altura);
+ 
+ //Saída de Dados
+ printf ("O volume da lata cilindrica é: %f", volume = pi * raio * altura);
+}
