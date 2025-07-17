@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main () {
+
+//Declaração de Variáveis
+  int A, B, soma, subtração, multiplicação, quociente, resto;
+//Entrada de dados
+  printf ("Informe o primeiro valor que vai ser calculado: ");
+  scanf ("%d", &A);
+  printf ("Informe o segundo valor que vai ser calculado: ");
+  scanf ("%d", &B);
+
+//Processamento
+soma = A + B;
+subtração = A - B;
+multiplicação = A * B;
+quociente = A / B;
+resto = A % B;
+
+//Saída de Dados
+printf ("O valor da soma de %d + %d = %d\n ", A, B, soma);
+printf ("O valor da subtração de %d - %d = %d\n ", A, B, subtração);
+printf ("O valor da multiplicação de %d * %d = %d\n ", A, B, multiplicação);
+printf ("O valor do quociente de %d / %d = %d\n ", A, B, quociente);
+printf ("O valor do resto de %d %% %d = %d\n ", A, B, resto);
+
+
+return 0;
+}
