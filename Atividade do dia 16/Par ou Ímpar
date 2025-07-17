@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main () {
+
+//Declaração de variáveis
+  int numero;
+
+//Entrada de Dados
+  printf ("Informe o valor do número: ");
+  scanf ("%d", &numero);
+
+//Processamento
+  if (numero % 2==0){
+    printf ("Número é par ");
+  } else{
+    printf ("Número é ímpar ");
+  }
+
+return 0;
+}
