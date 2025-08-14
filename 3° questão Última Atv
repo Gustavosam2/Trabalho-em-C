@@ -9,7 +9,7 @@ int main() {
     scanf("%hd", &Idade);  // %hd para short
 
     printf("Digite o montante do deposito: ");
-    scanf("%ld", &montante);  // %ld para long
+    scanf("%ld", &Montante);  // %ld para long
 
     printf("Digite o numero da conta: ");
     scanf("%d", &Numero_da_conta);  // %d para int
