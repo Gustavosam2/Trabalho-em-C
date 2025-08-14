@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int numero;
+    int num;
 
-    // Entrada de Dados
-    printf("Digite um número inteiro: ");
-    scanf("%d", &numero);
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &num);
 
-    // Processamento
-    int divisivelPor2 = (numero % 2 == 0);
-    int divisivelPor3 = (numero % 3 == 0);
-
-    if (divisivelPor2 ^ divisivelPor3) {  // XOR: verdadeiro se apenas um for verdadeiro
-        printf("O número %d é divisível por 2 ou por 3, mas não por ambos.\n", numero);
+    if ((num % 2 == 0) && (num % 3 == 0)) {
+        printf("%d é divisivel por 2 e por 3 ao mesmo tempo.\n", num);
+    } else if (num % 2 == 0) {
+        printf("%d é divisivel apenas por 2, mas nao por 3.\n", num);
+    } else if (num % 3 == 0) {
+        printf("%d é divisivel apenas por 3 mas nao por 2.\n", num);
     } else {
-        printf("O número %d NÃO atende à condição (divisível por ambos ou por nenhum).\n", numero);
+        printf("%d nao é divisivel nem por 2 nem por 3.\n", num);
     }
 
     return 0;
