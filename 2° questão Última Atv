@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("números quadrado cubo\n");
+    printf("números quadrado \tcubo\n");
 
     printf("0 \t%d\t\t%d\n", 0*0, 0*0*0);
     printf("1 \t%d\t\t%d\n", 1*1, 1*1*1);
