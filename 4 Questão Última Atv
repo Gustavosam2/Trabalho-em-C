@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int numero;
+
+    // Leitura do número
+    printf("Digite um número inteiro: ");
+    scanf("%d", &numero);
+
+    // Verifica divisibilidade
+    int divisivelPor2 = (numero % 2 == 0);
+    int divisivelPor3 = (numero % 3 == 0);
+
+    // Verifica se é divisível por 2 ou por 3, mas não por ambos
+    if (divisivelPor2 ^ divisivelPor3) {  // XOR: verdadeiro se apenas um for verdadeiro
+        printf("O número %d é divisível por 2 ou por 3, mas não por ambos.\n", numero);
+    } else {
+        printf("O número %d NÃO atende à condição (divisível por ambos ou por nenhum).\n", numero);
+    }
+
+    return 0;
+}
