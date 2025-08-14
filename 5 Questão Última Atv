@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    int numero;
 
     printf("Digite um numero inteiro: ");
-    scanf("%d", &num);
+    scanf("%d", &numero);
 
-    if ((num % 2 == 0) && (num % 3 == 0)) {
-        printf("%d é divisivel por 2 e por 3 ao mesmo tempo.\n", num);
+    if ((numero % 2 == 0) && (numero % 3 == 0)) {
+        printf("%d É divisivel por 2 e por 3 ao mesmo tempo.\n", num);
     } else if (num % 2 == 0) {
-        printf("%d é divisivel apenas por 2, mas nao por 3.\n", num);
+        printf("%d É divisivel apenas por 2, mas não por 3.\n", num);
     } else if (num % 3 == 0) {
-        printf("%d é divisivel apenas por 3 mas nao por 2.\n", num);
+        printf("%d é divisivel apenas por 3 mas não por 2.\n", num);
     } else {
-        printf("%d nao é divisivel nem por 2 nem por 3.\n", num);
+        printf("%d Não é divisivel nem por 2 nem por 3.\n", num);
     }
 
     return 0;
