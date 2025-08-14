@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    char digito1, digito2, digito3, digito4, digito5;
+
+    printf("Digite 5 números (sem espaços): ");
+    scanf("%c%c%c%c%c", &digito1, &digito2, &digito3, &digito4, &digito5);
+
+    printf("%c %c %c %c %c\n", digito1, digito2, digito3, digito4, digito5);
+
+    return 0;
+}
